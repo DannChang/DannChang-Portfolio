@@ -11,7 +11,7 @@ const about = () => {
            <p>
                Passionate about merging Music and Technology together.
            </p> 
-           <Link href={`https://github.com/dannchang`}><b>Github</b></Link>
+           <Link href={`https://github.com/dannchang`}><a>Github</a></Link>
         </div>
     )
 }

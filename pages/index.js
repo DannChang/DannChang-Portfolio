@@ -1,17 +1,19 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import ArticleList from '../components/ArticleList'
+import Layout from '../components/Layout'
 
 
 export default function Home({ articles }) {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>Dan Chang Portfolio</title>
         <meta name='keywords' content='Creative Developer, UX Engineer, front end developer, user experience developer'/>
       </Head>
 
       {/* <ArticleList articles={articles}/> */}
-    </div>
+    </Layout>
   )
 }
 
