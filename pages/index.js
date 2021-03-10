@@ -7,7 +7,7 @@ export default function Home({ articles }) {
     <div>
       <Head>
         <title>Dan Chang Portfolio</title>
-        <meta name='keywords' content='UX Developer, UX Engineer, web development, front end developer'/>
+        <meta name='keywords' content='Creative Developer, UX Engineer, front end developer, user experience developer'/>
       </Head>
 
       {/* <ArticleList articles={articles}/> */}
