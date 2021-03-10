@@ -17,7 +17,7 @@ const Header = () => {
             <h1 className={headerStyles.title}>
                 <span>Dan Chang</span>,
                 <br></br>
-                Front End Devloper
+                Front End Developer
             </h1>
             <br></br>
             <i>"Learning is rooted in repetition and convexity, meaning that the reading of a single text twice is more profitable than reading two different things once."</i>
