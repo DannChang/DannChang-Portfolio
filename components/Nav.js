@@ -12,6 +12,9 @@ const Nav = () => {
                 <li>
                     <Link href='/'>Home</Link>
                 </li>
+                <li>
+                    <Link href="https://github.com/DannChang">Github</Link>
+                </li>
                 {/* <li>
                     <Link href='/about'>About</Link>
                 </li> */}
