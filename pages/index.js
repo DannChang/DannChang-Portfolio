@@ -2,11 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import ArticleList from '../components/ArticleList'
 import Layout from '../components/Layout'
-
+import DarkModeSwitch from '../components/DarkModeSwitch'
 
 export default function Home({ articles }) {
   return (
     <Layout>
+
       <Head>
         <title>Dan Chang Portfolio</title>
         <meta name='keywords' content='Creative Developer, UX Engineer, front end developer, user experience developer'/>
